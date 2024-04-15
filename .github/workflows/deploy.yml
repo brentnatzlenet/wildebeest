@@ -41,7 +41,7 @@ jobs:
           OVERRIDE_NAME_SUFFIX: ${{ vars.OVERRIDE_NAME_SUFFIX }}
 
       - uses: actions/checkout@v4
-      - uses: hashicorp/setup-terraform@v2
+      - uses: hashicorp/setup-terraform@v3
 
       - name: Install package
         run: |
